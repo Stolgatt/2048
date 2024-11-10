@@ -7,11 +7,10 @@ Bienvenue dans mon implémentation du jeu 2048 en Java ! Ce projet propose une v
 1. [Description](#description)
 2. [Fonctionnalités](#fonctionnalités)
 3. [Règles du Jeu](#règles-du-jeu)
-4. [Installation et Utilisation](#installation et Utilisation)
-6. [Compilation et Exécution](#compilation-et-exécution)
-7. [Utilisation du Fichier .jar](#utilisation-du-fichier-jar)
-8. [Tests](#tests)
-9. [Structure du Projet](#structure-du-projet)
+4. [Installation et Utilisation](#Installation et Utilisation)
+5. [Utilisation du Fichier .jar](#utilisation-du-fichier-jar)
+6. [Tests](#tests)
+7. [Structure du Projet](#structure-du-projet)
 
 ## Description
 
@@ -27,11 +26,11 @@ Ce projet est une version complète du jeu 2048, écrite en Java, avec des fonct
 
 ## Règles du Jeu
 
-    Le plateau commence avec deux tuiles de valeur 2.
-    Vous pouvez glisser les tuiles dans quatre directions : gauche, droite, haut, ou bas à l'aide des boutons ou des touches Z,Q,S,D
-    Lorsque deux tuiles de même valeur se rencontrent, elles fusionnent pour former une tuile de valeur double.
-    Après chaque mouvement, une nouvelle tuile (2 ou 4) apparaît dans un emplacement vide.
-    Le jeu se termine lorsque vous atteignez une tuile de la valeur de l'objectif (victoire) ou lorsqu'il n'y a plus de mouvements possibles (défaite).
+    + Le plateau commence avec deux tuiles de valeur 2.
+    + Vous pouvez glisser les tuiles dans quatre directions : gauche, droite, haut, ou bas à l'aide des boutons ou des touches Z,Q,S,D
+    + Lorsque deux tuiles de même valeur se rencontrent, elles fusionnent pour former une tuile de valeur double.
+    + Après chaque mouvement, une nouvelle tuile (2 ou 4) apparaît dans un emplacement vide.
+    + Le jeu se termine lorsque vous atteignez une tuile de la valeur de l'objectif (victoire) ou lorsqu'il n'y a plus de mouvements possibles (défaite).
 
 ## Installation et Utilisation
 
