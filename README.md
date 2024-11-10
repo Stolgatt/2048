@@ -25,7 +25,7 @@ Ce projet est une version complète du jeu 2048, écrite en Java, avec des fonct
 - **Système de Score** : Calcul du score à chaque fusion de tuiles, avec sauvegarde du score maximal.
 - **Détection des États du Jeu** : Détection automatique de la victoire (atteinte de la tuile de valeur 'objectif') ou de la défaite (aucun mouvement possible).
 
-##Règles du Jeu
+## Règles du Jeu
 
     Le plateau commence avec deux tuiles de valeur 2.
     Vous pouvez glisser les tuiles dans quatre directions : gauche, droite, haut, ou bas à l'aide des boutons ou des touches Z,Q,S,D
@@ -59,7 +59,7 @@ Pour installer et utiliser le projet, assurez-vous d'avoir Java 21 et JavaFX 21 
    ```
 2. JavaFX : Assurez-vous d'avoir téléchargé et extrait JavaFX 21 LTS.
 
-####Compilation
+#### Compilation
 
 Ouvrez un terminal (Windows : cmd ou PowerShell, Mac/Linux : Terminal).
 
@@ -75,14 +75,14 @@ Ouvrez un terminal (Windows : cmd ou PowerShell, Mac/Linux : Terminal).
         Remplacez /chemin/vers/javafx/lib par le chemin réel vers le dossier lib de JavaFX.
         -d ../bin spécifie que les fichiers compilés doivent être placés dans le dossier bin.
 
-####Exécution
+#### Exécution
 
 Depuis le même terminal, exécutez le jeu en ajoutant JavaFX au module-path :
     ```bash
     java --module-path /chemin/vers/javafx/lib --add-modules=javafx.controls,javafx.fxml -cp ../bin eu.telecomnancy.Main
     ```
 
-###Instructions Spécifiques pour Windows
+### Instructions Spécifiques pour Windows
 
 1. Télécharger Java et JavaFX :
     Assurez-vous que Java est bien installé et que JAVA_HOME est configuré dans les variables d'environnement.
@@ -96,7 +96,7 @@ Depuis le même terminal, exécutez le jeu en ajoutant JavaFX au module-path :
     ```
         CMD : Utilisez des guillemets autour des chemins si ceux-ci contiennent des espaces.
 
-###Instructions Spécifiques pour Mac
+### Instructions Spécifiques pour Mac
 
 1. Installer Java et JavaFX :
     - Installez Java avec Homebrew :
@@ -112,7 +112,7 @@ Depuis le même terminal, exécutez le jeu en ajoutant JavaFX au module-path :
         java --module-path /Users/chemin/vers/javafx/lib --add-modules=javafx.controls,javafx.fxml -cp bin eu.telecomnancy.Main
     ```
 
-###Instructions Spécifiques pour Linux
+### Instructions Spécifiques pour Linux
 
 1. Installer Java :
     Installez Java avec votre gestionnaire de paquets (ex. : sudo apt install openjdk-21-jdk).
@@ -120,7 +120,7 @@ Depuis le même terminal, exécutez le jeu en ajoutant JavaFX au module-path :
     Suivez les mêmes instructions que pour Mac, en ajustant le chemin de JavaFX.
 
 
-##Utilisation du Fichier .jar
+## Utilisation du Fichier .jar
 
     Pour lancer le .jar avec JavaFX :
     ```bash
@@ -128,7 +128,7 @@ Depuis le même terminal, exécutez le jeu en ajoutant JavaFX au module-path :
     ```
     Distribution : Le .jar peut être partagé et exécuté sur n'importe quelle machine disposant de Java et de JavaFX configurés.
 
-##Tests
+## Tests
 
 Ce projet inclut une suite de tests unitaires pour vérifier le bon fonctionnement de la logique du jeu. Les tests utilisent JUnit 5.
 Exécuter les Tests
@@ -136,7 +136,7 @@ Exécuter les Tests
     - Dans l'IDE : Exécutez tous les tests avec JUnit 5.
     - En Ligne de Commande : Utilisez Maven ou Gradle pour lancer les tests.
 
-##Structure du Projet
+## Structure du Projet
 
 src/
 │
