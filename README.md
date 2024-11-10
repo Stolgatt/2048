@@ -121,19 +121,19 @@ java --module-path /chemin/vers/javafx/lib --add-modules=javafx.controls,javafx.
 
 ## Utilisation du Fichier .jar
 
-    Pour lancer le .jar avec JavaFX :
-    ```bash
-        java --module-path /chemin/vers/javafx/lib --add-modules=javafx.controls,javafx.fxml -jar jeu2048.jar
-    ```
-    Distribution : Le .jar peut être partagé et exécuté sur n'importe quelle machine disposant de Java et de JavaFX configurés.
+Pour lancer le .jar avec JavaFX :
+```bash
+    java --module-path /chemin/vers/javafx/lib --add-modules=javafx.controls,javafx.fxml -jar jeu2048.jar
+```
+Distribution : Le .jar peut être partagé et exécuté sur n'importe quelle machine disposant de Java et de JavaFX configurés.
 
 ## Tests
 
 Ce projet inclut une suite de tests unitaires pour vérifier le bon fonctionnement de la logique du jeu. Les tests utilisent JUnit 5.
 Exécuter les Tests
 
-    - Dans l'IDE : Exécutez tous les tests avec JUnit 5.
-    - En Ligne de Commande : Utilisez Maven ou Gradle pour lancer les tests.
+- Dans l'IDE : Exécutez tous les tests avec JUnit 5.
+- En Ligne de Commande : Utilisez Maven ou Gradle pour lancer les tests.
 
 ## Structure du Projet
 
