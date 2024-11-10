@@ -136,7 +136,7 @@ Exécuter les Tests
 - En Ligne de Commande : Utilisez Maven ou Gradle pour lancer les tests.
 
 ## Structure du Projet
-
+```
 src/
 │
 ├── eu/telecomnancy/
@@ -147,3 +147,4 @@ src/
 │   └── VueXXX.java             # Les différentes vues implémentant le patron Observateur
 │
 └── README.md                   # Documentation du projet
+```
