@@ -56,7 +56,7 @@ Pour installer et utiliser le projet, assurez-vous d'avoir Java 21 et JavaFX 21 
    ```bash
    java -version
    ```
-2. JavaFX : Assurez-vous d'avoir téléchargé et extrait JavaFX 21 LTS.
+2. **JavaFX** : Assurez-vous d'avoir téléchargé et extrait JavaFX 21 LTS.
 
 #### Compilation
 
@@ -77,9 +77,9 @@ Ouvrez un terminal (Windows : cmd ou PowerShell, Mac/Linux : Terminal).
 #### Exécution
 
 Depuis le même terminal, exécutez le jeu en ajoutant JavaFX au module-path :
-    ```bash
-    java --module-path /chemin/vers/javafx/lib --add-modules=javafx.controls,javafx.fxml -cp ../bin eu.telecomnancy.Main
-    ```
+```bash
+java --module-path /chemin/vers/javafx/lib --add-modules=javafx.controls,javafx.fxml -cp ../bin eu.telecomnancy.Main
+```
 
 ### Instructions Spécifiques pour Windows
 
@@ -88,12 +88,12 @@ Depuis le même terminal, exécutez le jeu en ajoutant JavaFX au module-path :
     Téléchargez JavaFX 21 LTS, extrayez les fichiers, et notez le chemin.
 
 2. Compiler et Exécuter :
-    PowerShell :
+- PowerShell :
     ```bash
         javac --module-path "C:\chemin\vers\javafx\lib" --add-modules=javafx.controls,javafx.fxml -d bin src\eu\telecomnancy\*.java
         java --module-path "C:\chemin\vers\javafx\lib" --add-modules=javafx.controls,javafx.fxml -cp bin eu.telecomnancy.Main
     ```
-        CMD : Utilisez des guillemets autour des chemins si ceux-ci contiennent des espaces.
+- CMD : Utilisez des guillemets autour des chemins si ceux-ci contiennent des espaces.
 
 ### Instructions Spécifiques pour Mac
 
