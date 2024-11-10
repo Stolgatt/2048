@@ -53,9 +53,9 @@ Pour installer et utiliser le projet, assurez-vous d'avoir Java 21 et JavaFX 21 
 #### Prérequis
 
 1. **Java** : Vérifiez que Java est correctement installé :
-   ```bash
-   java -version
-   ```
+```bash
+    java -version
+```
 2. **JavaFX** : Assurez-vous d'avoir téléchargé et extrait JavaFX 21 LTS.
 
 #### Compilation
@@ -63,22 +63,22 @@ Pour installer et utiliser le projet, assurez-vous d'avoir Java 21 et JavaFX 21 
 Ouvrez un terminal (Windows : cmd ou PowerShell, Mac/Linux : Terminal).
 
 1. Naviguez dans le dossier src de votre projet :
-    ```bash
+```bash
     cd chemin/vers/src
-    ```
+```
 
 2. Compilez les fichiers .java en ajoutant le module JavaFX au module-path :
-    ```bash
+```bash
     javac --module-path /chemin/vers/javafx/lib --add-modules=javafx.controls,javafx.fxml -d ../bin eu/telecomnancy/*.java
-    ```
-        Remplacez /chemin/vers/javafx/lib par le chemin réel vers le dossier lib de JavaFX.
-        -d ../bin spécifie que les fichiers compilés doivent être placés dans le dossier bin.
+```
+    Remplacez /chemin/vers/javafx/lib par le chemin réel vers le dossier lib de JavaFX.
+    -d ../bin spécifie que les fichiers compilés doivent être placés dans le dossier bin.
 
 #### Exécution
 
 Depuis le même terminal, exécutez le jeu en ajoutant JavaFX au module-path :
 ```bash
-java --module-path /chemin/vers/javafx/lib --add-modules=javafx.controls,javafx.fxml -cp ../bin eu.telecomnancy.Main
+    java --module-path /chemin/vers/javafx/lib --add-modules=javafx.controls,javafx.fxml -cp ../bin eu.telecomnancy.Main
 ```
 
 ### Instructions Spécifiques pour Windows
@@ -89,10 +89,10 @@ java --module-path /chemin/vers/javafx/lib --add-modules=javafx.controls,javafx.
 
 2. Compiler et Exécuter :
 - PowerShell :
-    ```bash
-        javac --module-path "C:\chemin\vers\javafx\lib" --add-modules=javafx.controls,javafx.fxml -d bin src\eu\telecomnancy\*.java
-        java --module-path "C:\chemin\vers\javafx\lib" --add-modules=javafx.controls,javafx.fxml -cp bin eu.telecomnancy.Main
-    ```
+```bash
+    javac --module-path "C:\chemin\vers\javafx\lib" --add-modules=javafx.controls,javafx.fxml -d bin src\eu\telecomnancy\*.java
+    java --module-path "C:\chemin\vers\javafx\lib" --add-modules=javafx.controls,javafx.fxml -cp bin eu.telecomnancy.Main
+```
 - CMD : Utilisez des guillemets autour des chemins si ceux-ci contiennent des espaces.
 
 ### Instructions Spécifiques pour Mac
@@ -100,7 +100,7 @@ java --module-path /chemin/vers/javafx/lib --add-modules=javafx.controls,javafx.
 1. Installer Java et JavaFX :
     - Installez Java avec Homebrew :
     ```bash
-    brew install openjdk
+        brew install openjdk
     ```
     - Téléchargez JavaFX, extrayez-le, et notez le chemin.
 
