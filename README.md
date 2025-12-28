@@ -53,7 +53,11 @@ Configurez vos variables d'environnement pour utiliser cette version de Java :
 
 #### Utilsiation sans IDE 
 
-Lancez le script bash [quickStart.bash](quickStart.bash)
+Lancez le script bash [quickStart.bat](quickStart.bat) depuis un terminal à la source du projet :
+
+```
+.\quickStart.bat
+```
 
 #### Utilisation dans VS Code
 
