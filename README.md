@@ -34,9 +34,36 @@ Ce projet est une version complète du jeu 2048, écrite en Java, avec des fonct
 
 ## Installation et Utilisation
 
-Pour installer et utiliser le projet, assurez-vous d'avoir Java 21 et JavaFX 21 LTS correctement installés.
+### Windows : utilisation rapide
 
-### Utilisation avec un IDE
+#### Installer Java et JavaFX
+
+Installez un package complet de Java et JavaFX en version 21 LTS via le site [bell-sw.com](https://bell-sw.com/pages/downloads/#jdk-21-lts)
+
+Configurez vos variables d'environnement pour utiliser cette version de Java :
+
+- dans le menu windows, cherchez "env" et sélectionnez "modifier les variables d'environnement pour votre système"
+- Cliquez sur "Variables d'environnement"
+- Cliquez sur "Nouvelle" dans la sections "Variables utilisateur"
+- Créer la variable avec le nom "JAVA_HOME" et comme valeur le chemin vers votre dossier d'installation du package FULL Java 21 LTS
+- Ensuite, modifiez la variable Path dans cette même section
+- Cliquez sur Nouveau et ajoutez "%JAVA_HOME%\bin"
+- Déplacez vers le haut cette nouvelle entrée pour la mettre tout en haut de la liste
+- Cliquez sur Ok dans toutes les fenêtres pour les fermer
+
+#### Utilsiation sans IDE 
+
+Lancez le script bash [quickStart.bash](quickStart.bash)
+
+#### Utilisation dans VS Code
+
+- Installez l'extension Java de microsoft
+- Cherchez le fichier [Main](src/eu/telecomnancy/Main.java)
+- Lancer le jeu avec la flèche en haut à droite
+
+### Version plus manuelle avec IntelliJ
+
+Pour installer et utiliser le projet, assurez-vous d'avoir Java 21 et JavaFX 21 LTS correctement installés.
 
 1. **Configurer JavaFX dans votre IDE** :
    - **IntelliJ IDEA** :
