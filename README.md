@@ -32,6 +32,12 @@ Ce projet est une version complète du jeu 2048, écrite en Java, avec des fonct
 - Après chaque mouvement, une nouvelle tuile (2 ou 4) apparaît dans un emplacement vide.
 - Le jeu se termine lorsque vous atteignez une tuile de la valeur de l'objectif (victoire) ou lorsqu'il n'y a plus de mouvements possibles (défaite).
 
+## Illustrations
+
+![Ecran de jeu en 4x4 classique, avec un score objectif de 2048](assets/EcranJeu.png)
+
+![Ecran de victoire d'une partie en 6x6 avec un score objectif de 512](assets/EcranVictoire.png)
+
 ## Installation et Utilisation
 
 ### Windows : utilisation rapide
